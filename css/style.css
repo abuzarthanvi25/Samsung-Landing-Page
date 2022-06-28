@@ -1,0 +1,753 @@
+@import url('http://fonts.cdnfonts.com/css/samsung-sharp-sans');
+
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.navbar{
+    margin-top: 13px;
+}
+
+table tr td{
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 1px;
+}
+
+table tr td a{
+    text-decoration: none;
+    display: inline;
+    color: black;
+    font-weight: bolder;
+}
+
+td img{
+    padding-top: 2px;
+    padding-right: 56px;
+    padding-left: 240px;
+}
+
+#t1{
+    padding-left: 280px;
+}
+
+td a{
+    font-weight: bold;
+    padding: 8px;
+}
+
+.A1:hover{
+    /* padding: 10px; */
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.A2:hover{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.A3:hover{
+    background-color: rgba(238, 235, 235, 0.703);
+}
+
+#lm:hover{
+    background-color: rgb(85, 85, 85);
+}
+
+
+/* #ic1, #ic2, #ic3{
+    padding: 12px;
+} */
+
+#ic1{
+    padding-left: 32px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.banner #AA{
+    position: absolute;
+    left: 238px;
+    top: 280px;
+    background-color: rgb(165, 167, 167);
+    border-radius: 30px;
+    padding: 2px;
+}
+
+.banner #AB{
+    position: absolute;
+    right: 238px;
+    top: 280px;
+    background-color: rgb(165, 167, 167);
+    border-radius: 30px;
+    padding: 2px;
+}
+
+#AA:hover, #AB:hover{
+    background-color: rgb(116, 114, 114);
+}
+
+
+.heading p{
+    font-size: 38px;
+    font-weight: bold;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+}
+
+.heading2 p a{
+    text-decoration: none;
+    color: black;
+    font-size: 42px;
+    font-weight: bold;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+}
+
+.heading2 p{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+}
+
+.monthpick_links{
+    display: flex;
+    justify-content: center;
+}
+
+.monthpick_links a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 4px 18px 4px 18px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container{
+    width: 100%;
+    height: 700px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inContainer{
+    display: flex;
+    /* justify-content: flex-start;
+    align-items: flex-start; */
+    height: 680px;
+    width: 1440px;
+    /* background-color: wheat; */
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(243, 240, 240);
+    border-radius: 20px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.left a{
+    position: absolute;
+    top: 620px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.left a:hover{
+    background-color: rgb(110, 110, 110);
+}
+
+.left span{
+    position: absolute;
+    top: 570px;
+}
+
+.left span #p1{
+    font-size: 24px;
+    font-family:'Roboto', sans-serif; 
+    font-weight: bold;
+}
+
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    /* background-color: blue; */
+}
+
+.right div span{
+    position: absolute;
+    top: 235px;
+}
+
+.right div span #p_1{
+    font-size: 18px;
+    font-family:'Roboto', sans-serif; 
+    font-weight: bold;
+}
+
+.right div span a{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.right div span a:hover{
+    background-color: rgb(110, 110, 110);
+}
+
+#rsp{
+    position: absolute;
+    top: 580px;
+}
+
+#rsp p{
+    font-size: 18px;
+    font-family:'Roboto', sans-serif; 
+    font-weight: bold;
+}
+
+#rsp1{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#rsp2{
+    position: absolute;
+    top: 580px;
+}
+
+#rsp2 p{
+    font-size: 18px;
+    font-family:'Roboto', sans-serif; 
+    font-weight: bold;
+}
+
+#rsp3{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 22px;
+}
+
+#rsp3:hover, #rsp1:hover{
+    background-color: rgb(110, 110, 110);
+}
+
+.bann2img{
+    position: relative;
+}
+
+#bn1{
+    position: absolute;
+    left: 600px;
+    right: 0;
+    top: 50px;
+}
+
+#bn2{
+    position: absolute;
+    top: 120px;
+    left: 550px;
+}
+
+#bn3{
+    position: absolute;
+    top: 650px;
+    left: 300px;
+}
+
+#bn4{
+    position: absolute;
+    top: 735px;
+    left: 670px;
+}
+
+#bn4 a{
+    color: black;
+    text-decoration: none;
+    padding: 12px 25px 12px 25px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#bn4 a:hover{
+    background-color: rgb(220, 218, 218);
+}
+
+.bann3img{
+    position: relative;
+}
+
+#bn5{
+    position: absolute;
+    left: 550px;
+    right: 0;
+    top: 55px;
+}
+
+#bn5 p{
+    font-size: 38px;
+    font-weight: bolder;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+}
+
+#bn6{
+    position: absolute;
+    left: 545px;
+    top:120px
+}
+
+#bn6 a{
+    margin: 25px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+#bn7{
+    position:absolute;
+    left: 530px;
+    top: 590px;
+}
+
+#bn8{
+    position: absolute;
+    left: 565px;
+    top: 720px;
+}
+
+#bn8 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+#bn9{
+    position: absolute;
+    left: 660px;
+    top: 725px;
+}
+
+#bn9 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: black;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+
+#bn9 a:hover{
+    background-color: rgb(101, 101, 101);
+}
+
+#bn7 p{
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+
+}
+
+.bnn3{
+    border-bottom: 2px solid black;
+}
+
+#bn3 p{
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+}
+
+#bn2 a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.bnn2{
+    border-bottom: 2px solid white;
+    margin: 4px
+}
+
+#bn1 p{
+    color: white;
+    font-size: 40px;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+    font-weight: bolder;
+}
+
+
+.rightcon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 700px;
+    height: 100%;
+}
+
+.rightbox{
+    display: flex;
+    justify-content: center;
+    height: 315px;
+    width: 315px;
+    background-color: rgb(243, 240, 240);
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.rightbox img{
+    margin: 30px;
+}
+
+.cutimg{
+    display: flex;
+    justify-content: center;
+}
+
+.learnMore{
+    display: flex;
+    justify-content: center;
+}
+
+.learnMore div a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    /* padding: 0.69444444vw 1.66666667vw 0.76388889vw 1.66666667vw; */
+    padding: 12px 25px 12px 25px;
+    border-radius: 1.31944444vw
+}
+
+.banner2{
+    display: flex;
+    justify-content: center;
+}
+
+.banner3{
+    display: flex;
+    justify-content: center;
+}
+
+.banner3 img{
+    height: 800px;
+    width: 1440px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+}
+
+.incontainer{
+    display: flex;
+    flex-direction: row;
+    width: 1400px;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.left2{
+    width: 700px;
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+
+.right2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 700px;
+    height: 100%;
+    /* background-color: aliceblue; */
+    margin-left: 10px;
+}
+
+.right2 div{
+    width: 700px;
+    height: 120px;
+    /* background-color: cadetblue; */
+    /* border: 1px solid black; */
+    font-family: 'Samsung Sharp Sans', sans-serif;
+}
+
+#a1{
+    border-top: 1.5px solid black;
+    border-bottom: 1px solid rgb(193, 192, 192);
+}
+
+#a2:hover{
+    border-top: 1.5px solid black;
+    border-bottom: 1px solid rgb(193, 192, 192);
+}
+
+#a3:hover{
+    border-top: 1.5px solid black;
+    border-bottom: 1px solid rgb(193, 192, 192);
+}
+
+#a4:hover{
+    border-top: 1.5px solid black;
+    border-bottom: 1px solid rgb(193, 192, 192);
+}
+
+#a5:hover{
+    border-top: 1.5px solid black;
+}
+
+.right2 div a{
+    text-decoration: none;
+    margin-left: 90px;
+    padding-bottom: 2px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.right2 div p{
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.right2 div p span{
+    padding-right: 50px;
+    font-size: 16px;
+}
+
+
+.lnks{
+    display: flex;
+    justify-content: center;
+}
+
+.inLnks a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 1.66666667vw;
+    border: 1px solid rgba(187, 185, 185, 0.702);
+    margin: 2px;
+}
+
+.inInLinks a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 1.66666667vw;
+    border: 1px solid rgba(187, 185, 185, 0.702);
+}
+
+hr{
+    /* margin: 100px */
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+}
+
+.h6text{
+    display: flex;
+    justify-content: center;
+    height: 448px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+
+.text{
+    height: 400px;
+    width: 1240px;
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+.txt p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: rgb(85, 85, 85);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+
+.footContainer{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width: 1440px;
+    /* background-color: antiquewhite; */
+}
+
+.Flinks{
+    padding: 20px;
+    height: 690px;
+    width: 360px;
+    /* background-color: aquamarine; */
+}
+
+.Flinks a{
+    display: block;
+    text-decoration: none;
+    color: rgb(86, 85, 85);
+    padding: 10px;
+    font-size: 14px;
+}
+
+.Flinks a:hover{
+    color: rgb(71, 71, 148);
+    text-decoration: underline;
+}
+
+#f1, #f2, #f3{
+    border-bottom: 1px solid rgb(184, 184, 184);
+    border-right: 1px solid rgb(184, 184, 184);
+    border-top: 1px solid rgb(184, 184, 184);
+}
+
+#f4{
+    border-bottom: 1px solid rgb(184, 184, 184);
+    border-top: 1px solid rgb(184, 184, 184);
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    /* background-color: rgb(0, 255, 255); */
+}
+
+.copyright{
+    height: 50px;
+    width: 1420px;
+    padding: 10px;
+    /* background-color: red; */
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+.copyright p{
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 13px;
+    color: rgb(104, 104, 104);
+}
+
+.footerbar{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+}
+
+.foot{
+    height: 40px;
+    width: 1420px;
+}
+
+.foot p{
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.foot a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+}
+
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: rgba(238, 235, 235, 0.703)
+}
+
+.inptxt{
+    padding: 10px;
+    height: 8px;
+    margin-bottom: 4px;
+    background-color: rgba(238, 235, 235, 0.703);
+    color: black;
+    border: none;
+    font-size: 18px;
+}
+
+.searchbar svg{
+    padding-top: 3px;
+    padding-bottom: 4px;
+    padding-right: 15px;
+}
